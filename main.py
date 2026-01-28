@@ -1,4 +1,7 @@
 import os
+from datetime import datetime
+
+print(datetime.now())
 
 if os.getenv('CI'):
   print('CI running...')
